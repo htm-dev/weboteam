@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/weboteam/static/css/main.38656962.css",
-    "main.js": "/weboteam/static/js/main.99155f27.js",
+    "main.js": "/weboteam/static/js/main.61e5f81d.js",
     "static/js/612.23b56426.chunk.js": "/weboteam/static/js/612.23b56426.chunk.js",
     "static/js/609.ada0f5c2.chunk.js": "/weboteam/static/js/609.ada0f5c2.chunk.js",
     "static/js/281.e4ccee61.chunk.js": "/weboteam/static/js/281.e4ccee61.chunk.js",
@@ -11,7 +11,7 @@
     "static/js/313.db0cca52.chunk.js": "/weboteam/static/js/313.db0cca52.chunk.js",
     "index.html": "/weboteam/index.html",
     "main.38656962.css.map": "/weboteam/static/css/main.38656962.css.map",
-    "main.99155f27.js.map": "/weboteam/static/js/main.99155f27.js.map",
+    "main.61e5f81d.js.map": "/weboteam/static/js/main.61e5f81d.js.map",
     "612.23b56426.chunk.js.map": "/weboteam/static/js/612.23b56426.chunk.js.map",
     "609.ada0f5c2.chunk.js.map": "/weboteam/static/js/609.ada0f5c2.chunk.js.map",
     "281.e4ccee61.chunk.js.map": "/weboteam/static/js/281.e4ccee61.chunk.js.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.38656962.css",
-    "static/js/main.99155f27.js"
+    "static/js/main.61e5f81d.js"
   ]
 }
