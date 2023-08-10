@@ -1,5 +1,6 @@
 {
   "name": "weboteam-landing",
+  "homepage": "http://htm-dev.github.io/weboteam",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
