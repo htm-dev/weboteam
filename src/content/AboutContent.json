@@ -1,16 +1,26 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Nos Services",
+  "text": "",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Web Design and Development",
+      "content": "La création et le développement des sites  web esthétiques et fonctionnels, guidant vos visiteurs vers leurs objectifs.",
+      "icon": "software-development.png"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Mobile App Development",
+      "content": "De la conception à la réalisation, notre équipe expérimentée guide chaque étape pour des expériences utilisateur exceptionnelles.",
+      "icon": "mobile-development.png"
+    },
+    {
+      "title": "SEO",
+      "content": "Propulsez votre visibilité en ligne vers de nouveaux sommets. Grâce à des stratégies de référencement éprouvées, nous positionnons votre site en tête des résultats de recherche pertinents.",
+      "icon": "seo.png"
+    },
+    {
+      "title": "IT Consulting",
+      "content": "On vous offre une expertise pointue pour guider votre entreprise vers le succès. Nous analysons vos défis spécifiques, identifions les opportunités de croissance et élaborons des stratégies sur mesure.",
+      "icon": "consultation.png"
     }
   ]
 }

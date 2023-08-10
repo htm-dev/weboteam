@@ -64,7 +64,7 @@ export const Large = styled(Link)<any>`
   &:hover {
     color: rgb(255, 130, 92);
     text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+    text-decoration: rgb(255, 130, 92) ;
   }
 `;
 

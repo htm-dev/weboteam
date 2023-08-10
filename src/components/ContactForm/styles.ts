@@ -26,6 +26,10 @@ export const Span = styled("span")<any>`
   padding: 0 0.675rem;
 `;
 
+export const Block = styled("div")`
+  color: rgb(255, 130, 92);
+`;
+
 export const ButtonContainer = styled("div")`
   text-align: end;
   position: relative;

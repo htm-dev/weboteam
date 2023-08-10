@@ -3,15 +3,21 @@ import { withTranslation } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
 import { Button } from "../../common/Button";
 import { MiddleBlockSection, Content, ContentWrapper } from "./styles";
+import {MinPara, MinTitle, ServiceWrapper} from "../ContentBlock/LeftContentBlock/styles";
+import {PngIcon} from "../../common/PngIcon";
 
 interface MiddleBlockProps {
+
+  id: string;
   title: string;
   content: string;
+
+  section : any;
   button: string;
   t: any;
 }
 
-const MiddleBlock = ({ title, content, button, t }: MiddleBlockProps) => {
+const MiddleBlock = ({ id,title, content, button,section, t }: MiddleBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
     element.scrollIntoView({
@@ -19,7 +25,7 @@ const MiddleBlock = ({ title, content, button, t }: MiddleBlockProps) => {
     });
   };
   return (
-    <MiddleBlockSection>
+    <MiddleBlockSection  id={id}>
       <Slide direction="up">
         <Row justify="center" align="middle">
           <ContentWrapper>
@@ -31,6 +37,22 @@ const MiddleBlock = ({ title, content, button, t }: MiddleBlockProps) => {
                   {t(button)}
                 </Button>
               )}
+              <ServiceWrapper>
+                <Row justify="space-between">
+                  {typeof section === "object" &&
+                      section.map((item: any, id: number) => {
+                        return (
+                            <Col key={id} span={4}>
+                              <a href={item.url}>
+                                <PngIcon src={item.icon} width="200px" height="100px" />
+                              </a>
+                              <MinTitle>{t(item.title)}</MinTitle>
+                              <MinPara>{t(item.content)}</MinPara>
+                            </Col>
+                        );
+                      })}
+                </Row>
+              </ServiceWrapper>
             </Col>
           </ContentWrapper>
         </Row>

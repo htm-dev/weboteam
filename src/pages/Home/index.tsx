@@ -15,7 +15,7 @@ const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const Home = () => {
   return (
     <Container>
-      <ScrollToTop />
+        {/* <ScrollToTop />*/}
       <ContentBlock
         type="right"
         title={IntroContent.title}
@@ -24,19 +24,21 @@ const Home = () => {
         icon="developer.svg"
         id="intro"
       />
-      <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
-      />
       <ContentBlock
         type="left"
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
         icon="graphs.svg"
-        id="about"
+        id="services"
       />
+        <MiddleBlock
+            title={MiddleBlockContent.title}
+            content={MiddleBlockContent.text}
+            button={MiddleBlockContent.button}
+            section ={MiddleBlockContent.section}
+            id =""
+        />
       <ContentBlock
         type="right"
         title={MissionContent.title}
@@ -44,13 +46,13 @@ const Home = () => {
         icon="product-launch.svg"
         id="mission"
       />
-      <ContentBlock
-        type="left"
+        <MiddleBlock
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="waving.svg"
-        id="product"
-      />
+        button={ProductContent.button}
+        section ={ProductContent.section}
+        id="clients"
+    />
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}
