@@ -1,6 +1,6 @@
 const routes = [
   {
-    path: ["/", "/home"],
+    path: ["/weboteam/", "/weboteam/home"],
     exact: true,
     component: "Home",
   },
