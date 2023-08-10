@@ -1,6 +1,6 @@
 {
   "name": "weboteam-landing",
-  "homepage": "www.weboteam.com",
+  "homepage": "https://www.weboteam.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
