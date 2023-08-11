@@ -13,7 +13,7 @@ const App = () => (
       <Router />
         <FloatingWhatsApp    phoneNumber="+212620360331"
                              accountName="Weboteam"
-                             avatar = "/img/weboteam.png"
+                             avatar = "./img/weboteam.png"
                              allowEsc
                              chatMessage="Bonjour, comment on peut vous aider ?"
                              statusMessage = "Réponse généralement dans l'heure"
