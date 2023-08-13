@@ -6,6 +6,9 @@ import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 import Router from "./router";
 import i18n from "./translation";
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-JMC32DLN7W"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 const App = () => (
   <BrowserRouter>
     <I18nextProvider i18n={i18n}>
